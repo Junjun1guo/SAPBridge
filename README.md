@@ -28,7 +28,7 @@ ______
 3. Setting the number of segments for arc and spline, the elements length of girder, pier and cap beam.
 4. Clicking the "DXFModelLoad" button to load your model dxf file. (You can reference an example girder model dxf file constructed with the generated template file, called "girderBridgeExample.dxf", see Figure 2.2)
 5. Clicking the "generateModel" button to automatically generate the model nodes and elements, and save them into the model database and txt files in the selected folder.
-6. Go to the main windown of SAPBridge, clicking the button "loadModelDB" to load the generated model database, and display the model, see Figure 2.3, 
+6. Go to the main windown of SAPBridge, clicking the button "loadModelDB" to load the generated model database, and display the model, see Figures 2.3 and 2.4. In addition, the model can be visualized with node and element tags, see Figures 2.5 and 2.6.
 <img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/quicklyGenerateModel-1.jpg" width =100% height =100% div align="center">
 <p align="center">Figure 2.1 </p>
 <img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/dxfModel.jpg" width =100% height =100% div align="center">
