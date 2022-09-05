@@ -22,7 +22,7 @@ Prepare your own openseespy model by referring the file AnExampleBridgeOpenSeesP
 
 ## Tutorials 2-Quickly generate model nodes and elements with AutoCAD dxf file
 
-
+<img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/quicklyGenerateModel-1.jpg" width =100% height =100% div align="center">
 
 <img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/dxfModel.jpg" width =100% height =100% div align="center">
 
