@@ -19,8 +19,8 @@ Prepare your own openseespy model by referring the file AnExampleBridgeOpenSeesP
 <img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/modeShape.JPG" width =100% height =100% div align="center">
 <img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/timeHistory.JPG" width =100% height =100% div align="center">
 <img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/hysteretic.JPG" width =100% height =100% div align="center">
-______
-## Tutorials 2-Quickly generate model nodes and elements with AutoCAD dxf file    
+______    
+## Tutorials 2-Quickly generate model nodes and elements with AutoCAD dxf file          
 1. To access the auxiliary module, you need to get an free license. (Send your computer MAC address (eg.1A-2B-3C-D4-E5-F6 )
         to guojj@tongji.edu.cn to get a license by institute Email!)
 <img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/quicklyGenerateModel-1.jpg" width =100% height =100% div align="center">
