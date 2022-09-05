@@ -20,4 +20,4 @@ Prepare your own openseespy model by referring the file AnExampleBridgeOpenSeesP
 <img src="https://github.com/Junjun1guo/SAPBridge/blob/main/timeHistory.JPG" width =100% height =100% div align="center">
 <img src="https://github.com/Junjun1guo/SAPBridge/blob/main/hysteretic.JPG" width =100% height =100% div align="center">
 
-## Tutorials 2  
+## Tutorials 2-Quickly generate model nodes and elements with AutoCAD dxf file
