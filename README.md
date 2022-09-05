@@ -25,3 +25,11 @@ Prepare your own openseespy model by referring the file AnExampleBridgeOpenSeesP
 
 
 <img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/dxfModel.jpg" width =100% height =100% div align="center">
+
+<img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/quickModel.jpg" width =100% height =100% div align="center">
+
+<img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/modelNodesElements.jpg" width =100% height =100% div align="center">
+
+<img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/modelNodesElementsStr.jpg" width =100% height =100% div align="center">
+
+<img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/modelNodesElementsInt.jpg" width =100% height =100% div align="center">
