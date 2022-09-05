@@ -23,7 +23,9 @@ ______
 
 ## Tutorials 2-Quickly generate model nodes and elements with AutoCAD dxf file          
 1. To access the auxiliary module, you need to get an free license. (Send your computer MAC address (eg.1A-2B-3C-D4-E5-F6 )
-        to guojj@tongji.edu.cn to get a license by institute Email!)
+        to guojj@tongji.edu.cn to get a license by institute Email!)    
+2. After entering the Quick model module, clicking the "ModelPath" button to select an folder to save the model database and the generated model nodes and elements.
+3. 
 <img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/quicklyGenerateModel-1.jpg" width =100% height =100% div align="center">
 <p align="center">Figure 2.1 </p>
 <img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/dxfModel.jpg" width =100% height =100% div align="center">
