@@ -24,4 +24,4 @@ Prepare your own openseespy model by referring the file AnExampleBridgeOpenSeesP
 
 
 
-<img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/dxfModel.JPG" width =100% height =100% div align="center">
+<img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/dxfModel.jpg" width =100% height =100% div align="center">
