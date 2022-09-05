@@ -15,9 +15,9 @@ ______
 6. Then display the model and conduct post process.     
 Prepare your own openseespy model by referring the file AnExampleBridgeOpenSeesPyModel.py      
 ### Notes: compatible modules: records==0.5.3, sQLAlchemy==1.3.20     
-<img src="https://github.com/Junjun1guo/SAPBridge/blob/main/model.JPG" width =100% height =100% div align="center">
-<img src="https://github.com/Junjun1guo/SAPBridge/blob/main/modeShape.JPG" width =100% height =100% div align="center">
-<img src="https://github.com/Junjun1guo/SAPBridge/blob/main/timeHistory.JPG" width =100% height =100% div align="center">
-<img src="https://github.com/Junjun1guo/SAPBridge/blob/main/hysteretic.JPG" width =100% height =100% div align="center">
+<img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/model.JPG" width =100% height =100% div align="center">
+<img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/modeShape.JPG" width =100% height =100% div align="center">
+<img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/timeHistory.JPG" width =100% height =100% div align="center">
+<img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/hysteretic.JPG" width =100% height =100% div align="center">
 
 ## Tutorials 2-Quickly generate model nodes and elements with AutoCAD dxf file
