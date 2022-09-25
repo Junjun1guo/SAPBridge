@@ -54,7 +54,10 @@ ______
 ### 2D soil profile meshing  with AutoCAD dxf file
 1. Open the 2D soil profile divide window, see Figure 3.1.
 2. Click "resultsSavePath" button to select an folder to save the generated nodes and elements files.
-3. 
+3. Click "dxfModelLoad" button to load the soil profile dxf file.
+4. Enter the layer name of the rectangular border of the soil profile (Make sure the soil profile is within the rectangular border).
+5. Specify the width and height of the divided elements.
+6. 
 
 <img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/soilProfileMeshPanel.jpg" width =100% height =100% div align="center">
 <p align="center">Figure 3.1 </p>
