@@ -8,7 +8,7 @@ Environemet: Successfully excucted in python 3.8
 ______
 - [Tutorial-1:Install SAPBridge and view OpenSeesPy model](#Tutorials-1)
 - [Tutorial-2:Quickly generate model nodes and elements with AutoCAD dxf file](#Tutorial-2)
-- [Tutorial-3:Quickly generate model nodes and elements with AutoCAD dxf file](#Tutorial-3)
+- [Tutorial-3:2D soil profile meshing  with AutoCAD dxf file](#Tutorial-3)
 ______
 ## Tutorials-1      
 ### Install SAPBridge and view OpenSeesPy model
@@ -51,4 +51,4 @@ ______
 
 ______
 ## Tutorial-3      
-### Quickly generate model nodes and elements with AutoCAD dxf file 
+### 2D soil profile meshing  with AutoCAD dxf file
