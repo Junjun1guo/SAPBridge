@@ -5,7 +5,10 @@ Author: Junjun Guo([HomePage](https://github.com/Junjun1guo))
 E-mail: guojj@tongji.edu.cn/guojj_ce@163.com    
 Environemet: Successfully excucted in python 3.8    
 ##########################################################################
-______   
+______
+[Tutorials 2](## Tutorials 2-Quickly generate model nodes and elements with AutoCAD dxf file )
+
+______
 ## Tutorials 1      
 1. Download the zip file
 2. Run the example model (AnExampleBridgeOpenSeesPyModel.py) and generate the result database (resultsDB_1_1.db)
