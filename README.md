@@ -54,5 +54,5 @@ ______
 ### 2D soil profile meshing  with AutoCAD dxf file
 1.
 
-<img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/modelNodesElementsInt.jpg" width =100% height =100% div align="center">
+<img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/soilProfileMeshPanel.jpg" width =100% height =100% div align="center">
 <p align="center">Figure 2.6 </p>
