@@ -25,7 +25,8 @@ Prepare your own openseespy model by referring the file AnExampleBridgeOpenSeesP
 <img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/hysteretic.JPG" width =100% height =100% div align="center">
 ______    
 
-## Tutorials 2-Quickly generate model nodes and elements with AutoCAD dxf file          
+## Tutorials 
+### 2-Quickly generate model nodes and elements with AutoCAD dxf file          
 1. To access the auxiliary module, you need to get an free license. (Send your computer MAC address (eg.1A-2B-3C-D4-E5-F6 )
         to guojj@tongji.edu.cn to get a license by institute Email!)    
 2. After entering the Quick model module, clicking the "ModelPath" button to select an folder to save the model database and the generated model nodes and elements.(There generates a template dxf file named "cadModelTemplate.dxf" with several specific layers,such as girder,pier,etc., plot each model part in the corresponding layer.), see Figure 2.1.
