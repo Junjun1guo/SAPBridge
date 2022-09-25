@@ -6,8 +6,7 @@ E-mail: guojj@tongji.edu.cn/guojj_ce@163.com
 Environemet: Successfully excucted in python 3.8    
 ##########################################################################
 ______
-
-- [Tutorials 2](## Tutorials-2-Quickly-generate-model-nodes-and-elements-with-AutoCAD-dxf-file)
+- [Tutorials 2](##Tutorials-2-Quickly-generate-model-nodes-and-elements-with-AutoCAD-dxf-file)
 
 ______
 ## Tutorials 1      
