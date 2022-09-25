@@ -55,4 +55,4 @@ ______
 1.
 
 <img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/soilProfileMeshPanel.jpg" width =100% height =100% div align="center">
-<p align="center">Figure 2.6 </p>
+<p align="center">Figure 3.1 </p>
