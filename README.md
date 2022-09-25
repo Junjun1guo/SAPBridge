@@ -6,10 +6,12 @@ E-mail: guojj@tongji.edu.cn/guojj_ce@163.com
 Environemet: Successfully excucted in python 3.8    
 ##########################################################################
 ______
+- [Tutorial-1:Install SAPBridge and view OpenSeesPy model](#Tutorials-1)
 - [Tutorial-2](#Tutorial-2)
 
 ______
-## Tutorials 1      
+## Tutorials-1      
+### Install SAPBridge and view OpenSeesPy model
 1. Download the zip file
 2. Run the example model (AnExampleBridgeOpenSeesPyModel.py) and generate the result database (resultsDB_1_1.db)
 3. Download SAPBridge from https://fbs.sh/JunjunGuo/SAPBridge/SAPBridgeSetup.exe, and install it
