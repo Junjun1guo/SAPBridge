@@ -58,4 +58,5 @@ ______
 <p align="center">Figure 3.1 </p>
 <img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/soilProfileRectangleMesh.jpg" width =100% height =100% div align="center">
 <p align="center">Figure 3.2 </p>
-
+<img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/soilProfileRegionMesh.jpg" width =100% height =100% div align="center">
+<p align="center">Figure 3.3 </p>
