@@ -57,10 +57,10 @@ ______
 3. Click "dxfModelLoad" button to load the soil profile dxf file.
 4. Enter the layer name of the rectangular border of the soil profile (Make sure the soil profile is within the rectangular border).
 5. Specify the width and height of the divided elements.
-6. Click the "meshSoilProfile" button to divide the rectangle region.
+6. Click the "meshSoilProfile" button to divide the rectangle region (see Figure 3.2).
 7. Then, entering the layer name of the closed boundary of a local soil region, and enter the number of the soil region. 
 8. Click "soilIdentify" button to identify the generated elements that within the specified soil region.
-9. Repeat steps 7 and 8 until meshing all the soil regions.
+9. Repeat steps 7 and 8 until meshing all the soil regions (see Figure 3.3).
 10. Finally, click "saveNodesEles" button to save the nodes and the elements of each soil region to the selected folder.
 
 <img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/soilProfileMeshPanel.jpg" width =100% height =100% div align="center">
