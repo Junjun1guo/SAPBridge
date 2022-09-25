@@ -6,7 +6,7 @@ E-mail: guojj@tongji.edu.cn/guojj_ce@163.com
 Environemet: Successfully excucted in python 3.8    
 ##########################################################################
 ______
-- [Tutorial-1:Install SAPBridge and view OpenSeesPy model](#Tutorials-1)
+- [Tutorial-1:  Install SAPBridge and view OpenSeesPy model](#Tutorials-1)
 - [Tutorial-2](#Tutorial-2)
 
 ______
