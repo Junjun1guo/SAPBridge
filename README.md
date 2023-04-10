@@ -14,10 +14,9 @@ ______
 ## Tutorials-1
 ### Auxiliary modules
 1. #### CalculateGroundMotionIMs module
-   a class for calculate ground motion intensity measure. please use the command
-   print(help(CalculateGroundMotionIMs)) to check the structure and the usage of the class
+   a class for calculate ground motion intensity measure. please use the command print(help(CalculateGroundMotionIMs)) to check the structure and the usage of the    class
 2. #### GroundMotionProcess modulea 
-   class for ground motion baseline correction ,fltering, and conversion among acceleration,velocity and displacement, please use the  command  print(help(GroundMotionProcess)) to check the structure and the usage of the class
+   class for ground motion baseline correction ,fltering, and conversion among acceleration,velocity and displacement, please use the  command print(help(GroundMotionProcess)) to check the structure and the usage of the class
 3. #### OpenSeesPyX module
    a class for the visualization and quick construction of OpenSeesPy model. please use the command print(help(OpenSeesPyX)) to check the structure    and the usage of    the class
 4. #### SectionPropertyCalculate module
