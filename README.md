@@ -23,7 +23,7 @@ Prepare your own openseespy model by referring the examples
 ### Notes: compatible modules: records==0.5.3, sQLAlchemy==1.3.20     
 <img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/model.JPG" width =100% height =100% div align="center">
 <img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/modeShape.JPG" width =100% height =100% div align="center">
-<img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/shellWall.JPG" width =100% height =100% div align="center">
+<img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/shellWall.jpg" width =100% height =100% div align="center">
 <img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/timeHistory.JPG" width =100% height =100% div align="center">
 <img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/hysteretic.JPG" width =100% height =100% div align="center">
 
