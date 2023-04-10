@@ -11,6 +11,10 @@ ______
 - [Tutorial-3:Quickly generate model nodes and elements with AutoCAD dxf file](#Tutorial-3)
 - [Tutorial-4:2D soil profile meshing  with AutoCAD dxf file](#Tutorial-4)
 ______
+## Tutorials-1
+### Auxiliary modules
+
+______
 ## Tutorials-2      
 ### Install SAPBridge and view OpenSeesPy model
 1. Download the zip file
