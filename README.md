@@ -1,4 +1,4 @@
-# SAPBridge
+# SAPBridge (Version 0.4.0)
 An seismic analysis program for bridges    
 ##########################################################################    
 Author: Junjun Guo([HomePage](https://github.com/Junjun1guo))    
@@ -13,16 +13,17 @@ ______
 ## Tutorials-1      
 ### Install SAPBridge and view OpenSeesPy model
 1. Download the zip file
-2. Run the example model (AnExampleBridgeOpenSeesPyModel.py) and generate the result database (resultsDB_1_1.db)
+2. Run the example model (eg. exmple 1)
 3. Download SAPBridge from https://fbs.sh/JunjunGuo/SAPBridge/SAPBridgeSetup.exe, and install it
 4. When encounter error after installation, just close the window, and reopen it.
 5. Select SAPBridge and right click the mouse, then click the properties and choose running the program as an administrator.
-6. Click loadResultDB button, and load the result database (resultsDB_1_1.db)
+6. Click loadResultDB button, and load the result database 
 7. Then display the model and conduct post process.     
-Prepare your own openseespy model by referring the file AnExampleBridgeOpenSeesPyModel.py      
+Prepare your own openseespy model by referring the examples      
 ### Notes: compatible modules: records==0.5.3, sQLAlchemy==1.3.20     
 <img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/model.JPG" width =100% height =100% div align="center">
 <img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/modeShape.JPG" width =100% height =100% div align="center">
+<img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/shellWall.JPG" width =100% height =100% div align="center">
 <img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/timeHistory.JPG" width =100% height =100% div align="center">
 <img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/hysteretic.JPG" width =100% height =100% div align="center">
 
