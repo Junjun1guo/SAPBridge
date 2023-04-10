@@ -13,8 +13,14 @@ ______
 ______
 ## Tutorials-1
 ### Auxiliary modules
-1. CalculateGroundMotionIMs module: 
-
+1. CalculateGroundMotionIMs module: a class for calculate ground motion intensity measure. please use the command
+   print(help(CalculateGroundMotionIMs)) to check the structure and the usage of the class
+2. GroundMotionProcess module: a class for ground motion baseline correction ,fltering, and conversion among acceleration,velocity and displacement, please use the        command print(help(GroundMotionProcess)) to check the structure and
+3. OpenSeesPyX module: a class for the visualization and quick construction of OpenSeesPy model. please use the command print(help(OpenSeesPyX)) to check the structure    and the usage of the class
+4. SectionPropertyCalculate module: a class for calculating the section properties. please use the command print(help(SectionPropertyCalculate)) to check the structure    and the usage of the class
+5. SectMCAnalysis module: a class for section moment curvature analysis. please use the command print(help(SectMCAnalysis)) to check the structure and the usage of the    class
+6. ExciteAnyDirectionOpenSees module: a class for horizontally rotate FE model,it is convinient to get the rotated node coordinates use this class. please use the        command print(help(ExciteAnyDirectionOpenSees)) to check the structure and the usage of the class
+7. PythonInteractSAP2000 module: a class for python  interacting with the SAP2000 program.
 ______
 ## Tutorials-2      
 ### Install SAPBridge and view OpenSeesPy model
