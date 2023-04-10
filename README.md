@@ -13,6 +13,7 @@ ______
 ______
 ## Tutorials-1
 ### Auxiliary modules
+1. CalculateGroundMotionIMs module: 
 
 ______
 ## Tutorials-2      
