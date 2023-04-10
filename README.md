@@ -22,7 +22,7 @@ ______
    a class for the visualization and quick construction of OpenSeesPy model. please use the command print(help(OpenSeesPyX)) to check the structure    and the usage of    the class
 4. #### SectionPropertyCalculate module
    a class for calculating the section properties. please use the command print(help(SectionPropertyCalculate)) to check the structure    and the usage of the class
-5. SectMCAnalysis module
+5. #### SectMCAnalysis module
    a class for section moment curvature analysis. please use the command print(help(SectMCAnalysis)) to check the structure and the usage of the    class
 6. #### ExciteAnyDirectionOpenSees module
    a class for horizontally rotate FE model,it is convinient to get the rotated node coordinates use this class. please use the        command  print(help(ExciteAnyDirectionOpenSees)) to check the structure and the usage of the class
