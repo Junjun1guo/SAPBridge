@@ -6,11 +6,12 @@ E-mail: guojj@tongji.edu.cn/guojj_ce@163.com
 Environemet: Successfully excucted in python 3.8    
 ##########################################################################
 ______
-- [Tutorial-1:Install SAPBridge and view OpenSeesPy model](#Tutorials-1)
-- [Tutorial-2:Quickly generate model nodes and elements with AutoCAD dxf file](#Tutorial-2)
-- [Tutorial-3:2D soil profile meshing  with AutoCAD dxf file](#Tutorial-3)
+- [Tutorial-1:Auxiliary modules](#Tutorials-1)
+- [Tutorial-2:Install SAPBridge and view OpenSeesPy model](#Tutorials-2)
+- [Tutorial-3:Quickly generate model nodes and elements with AutoCAD dxf file](#Tutorial-3)
+- [Tutorial-4:2D soil profile meshing  with AutoCAD dxf file](#Tutorial-4)
 ______
-## Tutorials-1      
+## Tutorials-2      
 ### Install SAPBridge and view OpenSeesPy model
 1. Download the zip file
 2. Run the example model (eg. exmple 1)
@@ -28,7 +29,7 @@ Prepare your own openseespy model by referring the examples
 <img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/hysteretic.JPG" width =100% height =100% div align="center">
 
 ______  
-## Tutorial-2      
+## Tutorial-3      
 ### Quickly generate model nodes and elements with AutoCAD dxf file                
 1. To access the auxiliary module, you need to get an free license. (Send your computer MAC address (eg.1A-2B-3C-D4-E5-F6 )
         to guojj@tongji.edu.cn to get a license by institute Email!)    
@@ -51,7 +52,7 @@ ______
 <p align="center">Figure 2.6 </p>      
 
 ______
-## Tutorial-3      
+## Tutorial-4      
 ### 2D soil profile meshing  with AutoCAD dxf file
 1. Open the 2D soil profile divide window, see Figure 3.1.
 2. Click "resultsSavePath" button to select an folder to save the generated nodes and elements files.
