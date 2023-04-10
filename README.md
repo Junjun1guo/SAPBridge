@@ -1,4 +1,4 @@
-# SAPBridge
+# SAPBridge (Version 0.4.0)
 An seismic analysis program for bridges    
 ##########################################################################    
 Author: Junjun Guo([HomePage](https://github.com/Junjun1guo))    
@@ -6,28 +6,47 @@ E-mail: guojj@tongji.edu.cn/guojj_ce@163.com
 Environemet: Successfully excucted in python 3.8    
 ##########################################################################
 ______
-- [Tutorial-1:Install SAPBridge and view OpenSeesPy model](#Tutorials-1)
-- [Tutorial-2:Quickly generate model nodes and elements with AutoCAD dxf file](#Tutorial-2)
-- [Tutorial-3:2D soil profile meshing  with AutoCAD dxf file](#Tutorial-3)
+- [Tutorial-1:Auxiliary modules](#Tutorials-1)
+- [Tutorial-2:Install SAPBridge and view OpenSeesPy model](#Tutorials-2)
+- [Tutorial-3:Quickly generate model nodes and elements with AutoCAD dxf file](#Tutorial-3)
+- [Tutorial-4:2D soil profile meshing  with AutoCAD dxf file](#Tutorial-4)
 ______
-## Tutorials-1      
+## Tutorials-1
+### Auxiliary modules
+1. #### CalculateGroundMotionIMs module
+   a class for calculate ground motion intensity measure. please use the command print(help(CalculateGroundMotionIMs)) to check the structure and the usage of the    class
+2. #### GroundMotionProcess modulea 
+   class for ground motion baseline correction ,fltering, and conversion among acceleration,velocity and displacement, please use the  command print(help(GroundMotionProcess)) to check the structure and the usage of the class
+3. #### OpenSeesPyX module
+   a class for the visualization and quick construction of OpenSeesPy model. please use the command print(help(OpenSeesPyX)) to check the structure    and the usage of    the class
+4. #### SectionPropertyCalculate module
+   a class for calculating the section properties. please use the command print(help(SectionPropertyCalculate)) to check the structure    and the usage of the class
+5. #### SectMCAnalysis module
+   a class for section moment curvature analysis. please use the command print(help(SectMCAnalysis)) to check the structure and the usage of the    class
+6. #### ExciteAnyDirectionOpenSees module
+   a class for horizontally rotate FE model,it is convinient to get the rotated node coordinates use this class. please use the        command  print(help(ExciteAnyDirectionOpenSees)) to check the structure and the usage of the class
+7. #### PythonInteractSAP2000 module
+   a class for python  interacting with the SAP2000 program.
+______
+## Tutorials-2      
 ### Install SAPBridge and view OpenSeesPy model
 1. Download the zip file
-2. Run the example model (AnExampleBridgeOpenSeesPyModel.py) and generate the result database (resultsDB_1_1.db)
+2. Run the example model (eg. exmple 1)
 3. Download SAPBridge from https://fbs.sh/JunjunGuo/SAPBridge/SAPBridgeSetup.exe, and install it
 4. When encounter error after installation, just close the window, and reopen it.
 5. Select SAPBridge and right click the mouse, then click the properties and choose running the program as an administrator.
-6. Click loadResultDB button, and load the result database (resultsDB_1_1.db)
+6. Click loadResultDB button, and load the result database 
 7. Then display the model and conduct post process.     
-Prepare your own openseespy model by referring the file AnExampleBridgeOpenSeesPyModel.py      
+Prepare your own openseespy model by referring the examples      
 ### Notes: compatible modules: records==0.5.3, sQLAlchemy==1.3.20     
 <img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/model.JPG" width =100% height =100% div align="center">
 <img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/modeShape.JPG" width =100% height =100% div align="center">
+<img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/shellWall.jpg" width =100% height =100% div align="center">
 <img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/timeHistory.JPG" width =100% height =100% div align="center">
 <img src="https://github.com/Junjun1guo/SAPBridge/blob/main/figures/hysteretic.JPG" width =100% height =100% div align="center">
 
 ______  
-## Tutorial-2      
+## Tutorial-3      
 ### Quickly generate model nodes and elements with AutoCAD dxf file                
 1. To access the auxiliary module, you need to get an free license. (Send your computer MAC address (eg.1A-2B-3C-D4-E5-F6 )
         to guojj@tongji.edu.cn to get a license by institute Email!)    
@@ -50,7 +69,7 @@ ______
 <p align="center">Figure 2.6 </p>      
 
 ______
-## Tutorial-3      
+## Tutorial-4      
 ### 2D soil profile meshing  with AutoCAD dxf file
 1. Open the 2D soil profile divide window, see Figure 3.1.
 2. Click "resultsSavePath" button to select an folder to save the generated nodes and elements files.
