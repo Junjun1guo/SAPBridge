@@ -265,6 +265,8 @@ fixY(0.0, 1, 1, 1, 1, 1, 1)
 
 recorder('Node', '-file', 'ReactionPY.txt', '-time', '-node', 1, 2, 3, 4, 5, '-dof', 1, 'reaction')
 
+opsX.auxiliary_writeModelInformationToDB() ###---将模型信息写入数据库，以便在SAPBridge中显示模型
+
 
 ############################
 # Gravity Analysis
