@@ -445,7 +445,10 @@ recordList = [('node', 'disp', girderNodeList),('node', 'disp', nodeRespList),('
               ('node', 'vel', nodeRespList),('trussEle','axialForce',cableEleList),('trussEle','axialDeform',cableEleList),
               ('zeroEle','deformation',[1,2,3],BearingList),('zeroEle','localForce',[1,2,3],BearingList),
               ('nonEleSection','sectionForce',1,pylonEleNumList),('nonEleSection','sectionDeformation',1,pylonEleNumList),
-              ('nonZeroEle','localForce',[41001, 41025])]
-opsX.integration_earthquakeExcite(dampRatio=0.03, Tstart=13.385, Tend=0.206, waveLenth=waveLength,
+              ('nonZeroEle','localForce',[41001, 41025])],
+# opsX.integration_earthquakeExcite(RayleighDamping=['mode-1',dampingRatio,Tstart,Tend],waveLenth=length,dt=dt,
+# 								  dirList=[1],motionList=[pathName],recordList=None)
+#####----RayleighDamping=['mode-2',alphaM,betaK,betaKinit,betaKcommit],RayleighDamping=['mode-1',dampingRatio,Tstart,Tend]
+opsX.integration_earthquakeExcite(['mode-1',0.03, 13.385, 0.206], waveLenth=waveLength,
                                      dt=dt, dirList=[1, 3], motionList=[acc_X, acc_Z],recordList=recordList,waveNumber=1)
 ########################################################################################################################
