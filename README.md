@@ -27,6 +27,8 @@ ______
    a class for horizontally rotate FE model,it is convinient to get the rotated node coordinates use this class. please use the        command  print(help(ExciteAnyDirectionOpenSees)) to check the structure and the usage of the class
 7. #### PythonInteractSAP2000 module
    a class for python  interacting with the SAP2000 program.
+8. #### ShakeTableTest module
+   a class for processing shake table test data, such as calculating the periods and damping ratios of a structure
 ______
 ## Tutorials-2      
 ### Install SAPBridge and view OpenSeesPy model
