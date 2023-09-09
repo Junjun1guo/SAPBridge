@@ -10,6 +10,8 @@ ______
 - [Tutorial-3:Quickly generate model nodes and elements with AutoCAD dxf file](#Tutorial-3)
 - [Tutorial-4:2D soil profile meshing  with AutoCAD dxf file](#Tutorial-4)
 ______
+### Notes: compatible modules: records==0.5.3, sQLAlchemy==1.3.20    
+
 ## Tutorials-1
 ### Auxiliary modules
 1. #### CalculateGroundMotionIMs module
