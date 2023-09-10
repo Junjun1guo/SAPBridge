@@ -1,4 +1,4 @@
-# SAPBridge (Version 0.4.0)
+# SAPBridge (Version 0.5.0)
 An seismic analysis program for bridges    
 ##########################################################################    
 Author: Junjun Guo([HomePage](https://github.com/Junjun1guo))    
