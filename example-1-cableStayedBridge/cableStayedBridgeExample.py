@@ -11,33 +11,36 @@ import numpy as np
 import os
 import math
 import pandas as pd
+from time import time
 import openseespy.opensees as ops
+import sys
+sys.path.append("..")
 ############################----import auxiliary modules---#######################################
 ###---CalculateGroundMotionIMs is a class for calculate ground motion intensity measure,please use the command
 ###---print(help(CalculateGroundMotionIMs)) to check the structure and the usage of the class
-from SAPX import CalculateGroundMotionIMs
+from auxiliaryModules.mainMod  import CalculateGroundMotionIMs
 ###---GroundMotionProcess is a class for ground motion baseline correction ,fltering, and conversion among acceleration,
 ###---velocity and displacement, please use the command print(help(GroundMotionProcess)) to check the structure and
 ###---the usage of the class
-from SAPX import GroundMotionProcess
+from auxiliaryModules.mainMod import GroundMotionProcess
 ###---OpenSeesPyX is a class for the visualization and quick construction of OpenSeesPy model. please use the command
 ###---print(help(OpenSeesPyX)) to check the structure and the usage of the class
-from SAPX import OpenSeesPyX
+from auxiliaryModules.mainMod import OpenSeesPyX
 ###---SectionPropertyCalculate is class for calculating the section properties. please use the command
 ###---print(help(SectionPropertyCalculate)) to check the structure and the usage of the class
-from SAPX import SectionPropertyCalculate
+from auxiliaryModules.mainMod import SectionPropertyCalculate
 ###---SectionFiberDivide is a class for section fiber divide, used for quickly construct fiber-based nonlinear elements.
 ###---please use the command print(help(SectionFiberDivide)) to check the structure and the usage of the class
-from SAPX import SectionFiberDivide
+from auxiliaryModules.mainMod import SectionFiberDivide
 ###---SectMCAnalysis is a class for section moment curvature analysis. please use the command
 ###---print(help(SectMCAnalysis)) to check the structure and the usage of the class
-from SAPX import SectMCAnalysis
+from auxiliaryModules.mainMod import SectMCAnalysis
 ###---ExciteAnyDirectionOpenSees is a class for horizontally rotate FE model,it is convinient to get the rotated node
 ###---coordinates use this class. please use the command print(help(ExciteAnyDirectionOpenSees)) to check the structure
 ###---and the usage of the class
-from SAPX import ExciteAnyDirectionOpenSees
+from auxiliaryModules.mainMod import ExciteAnyDirectionOpenSees
 ###---PythonInteractSAP2000 is a class for python  interacting with the SAP2000 program.
-from SAPX import PythonInteractSAP2000
+from auxiliaryModules.mainMod import PythonInteractSAP2000
 ########################################################################################################################
 ########################################################################################################################
 ########################################################################################################################
@@ -58,6 +61,7 @@ for each in cableNodes:
     nodeMassValue = float(each[4])
     ###---为了可视化采用opsX,参数跟ops中完全一致
     opsX.node(nodeTageValue, xCoordValue, yCoordValue, zCoordValue, '-mass', nodeMassValue, nodeMassValue,nodeMassValue, 0.0, 0.0, 0.0)
+    opsX.auxiliary_writeModelInformationToDB()  ###---将模型信息写入数据库，以便在SAPBridge中显示模型
 ########################################################################################################################
 ##########################################---建立拉索材料---##############################################################
 cableMaterial = np.loadtxt('modelInformation/newCableMat.txt')
@@ -392,7 +396,7 @@ for i1 in range(9):
                 numbers0,numbers1,numbers2,numbers3,numbers4,numbers5, '-dir', 1, 2,3, 4,5, 6,'-orient', 0, 0, 1,
                 brTraf[i1][0], brTraf[i1][1], brTraf[i1][2]),
 ########################################################################################################################
-opsX.auxiliary_writeModelInformationToDB() ###---将模型信息写入数据库，以便在SAPBridge中显示模型
+# opsX.auxiliary_writeModelInformationToDB() ###---将模型信息写入数据库，以便在SAPBridge中显示模型
 ########################################################################################################################
 ##########################################---施加重力荷载---##############################################################
 nodesTags=ops.getNodeTags()
@@ -427,6 +431,11 @@ recordList = [('node', 'disp', girderNodeList), ('node', 'disp', nodeRespList), 
               ('nonEleSection', 'sectionForce', 1, pylonEleNumList),
               ('nonEleSection', 'sectionDeformation', 1, pylonEleNumList),
               ('nonZeroEle', 'localForce', [41001, 41018, 41019])]
+########################################################################################################################
+start=time()
+opsX.auxiliary_writeModelInformationToDB() ###---将模型信息写入数据库，以便在SAPBridge中显示模型
+end=time()
+print("写入数据库时间为:",end-start)
 ########################################################################################################################
 ##########################################---重力分析---##################################################################
 opsX.integration_analysisGravity(totalStep=1,recordList=None) ###---采用集成式方法进行自重分析(包装了自重分析相关命令)

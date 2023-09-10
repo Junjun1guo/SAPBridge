@@ -1,1 +1,0 @@
-This module is developed by Robbie van Leeuwen, more details can be found at https://github.com/robbievanleeuwen/section-properties

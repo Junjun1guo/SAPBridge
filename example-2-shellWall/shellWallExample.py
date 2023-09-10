@@ -12,32 +12,37 @@ import os
 import math
 import pandas as pd
 import openseespy.opensees as ops
+from openseespy.opensees import *
+
+import matplotlib.pyplot as plt
+import sys
+sys.path.append("..")
 ############################----import auxiliary modules---#######################################
 ###---CalculateGroundMotionIMs is a class for calculate ground motion intensity measure,please use the command
 ###---print(help(CalculateGroundMotionIMs)) to check the structure and the usage of the class
-from SAPX import CalculateGroundMotionIMs
+from auxiliaryModules.mainMod  import CalculateGroundMotionIMs
 ###---GroundMotionProcess is a class for ground motion baseline correction ,fltering, and conversion among acceleration,
 ###---velocity and displacement, please use the command print(help(GroundMotionProcess)) to check the structure and
 ###---the usage of the class
-from SAPX import GroundMotionProcess
+from auxiliaryModules.mainMod import GroundMotionProcess
 ###---OpenSeesPyX is a class for the visualization and quick construction of OpenSeesPy model. please use the command
 ###---print(help(OpenSeesPyX)) to check the structure and the usage of the class
-from SAPX import OpenSeesPyX
+from auxiliaryModules.mainMod import OpenSeesPyX
 ###---SectionPropertyCalculate is class for calculating the section properties. please use the command
 ###---print(help(SectionPropertyCalculate)) to check the structure and the usage of the class
-from SAPX import SectionPropertyCalculate
+from auxiliaryModules.mainMod import SectionPropertyCalculate
 ###---SectionFiberDivide is a class for section fiber divide, used for quickly construct fiber-based nonlinear elements.
 ###---please use the command print(help(SectionFiberDivide)) to check the structure and the usage of the class
-from SAPX import SectionFiberDivide
+from auxiliaryModules.mainMod import SectionFiberDivide
 ###---SectMCAnalysis is a class for section moment curvature analysis. please use the command
 ###---print(help(SectMCAnalysis)) to check the structure and the usage of the class
-from SAPX import SectMCAnalysis
+from auxiliaryModules.mainMod import SectMCAnalysis
 ###---ExciteAnyDirectionOpenSees is a class for horizontally rotate FE model,it is convinient to get the rotated node
 ###---coordinates use this class. please use the command print(help(ExciteAnyDirectionOpenSees)) to check the structure
 ###---and the usage of the class
-from SAPX import ExciteAnyDirectionOpenSees
+from auxiliaryModules.mainMod import ExciteAnyDirectionOpenSees
 ###---PythonInteractSAP2000 is a class for python  interacting with the SAP2000 program.
-from SAPX import PythonInteractSAP2000
+from auxiliaryModules.mainMod import PythonInteractSAP2000
 ########################################################################################################################
 ########################################################################################################################
 ########################################################################################################################
@@ -47,13 +52,6 @@ opsX = OpenSeesPyX(dataBaseName="shellWallModel")  ###初始化OpenSeesPyX类
 ##########################################---定义模型维数及自由度数---######################################################
 # Converted to openseespy by: Anurag Upadhyay, University of Utah.
 # Units: N and m to follow the originally published code.
-
-from openseespy.opensees import *
-
-import numpy as np
-import matplotlib.pyplot as plt
-import os
-import math
 
 pi = 3.1415
 
